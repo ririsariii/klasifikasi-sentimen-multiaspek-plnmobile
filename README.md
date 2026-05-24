@@ -23,7 +23,7 @@ The research combines:
 - Compare classification performance:
   - Without SMOTE-Tomek
   - With SMOTE-Tomek
-- Evaluate model performance using AUC metrics.
+- Evaluate model performance using Confusion Matrix & AUC metrics.
 
 ---
 
@@ -44,10 +44,9 @@ The research combines:
 - imbalanced-learn
 - pyLDAvis
 - Google Play Scraper
-- App Store Scraper
+- RSS Apple App Store
 
 ## Development Tools
-- Jupyter Notebook
 - Google Colab
 - VS Code
 
@@ -67,11 +66,6 @@ This stage collects PLN Mobile application reviews from the Google Play Store us
 - Retrieve review dates
 - Store reviews into CSV format
 
-### Output:
-```bash
-googleplay_reviews.csv
-```
-
 ---
 
 # 2️⃣ Scraping Apple App Store
@@ -82,11 +76,6 @@ Collect user reviews from Apple App Store to enrich dataset diversity.
 - Scrape iOS PLN Mobile reviews
 - Merge metadata
 - Save results into CSV
-
-### Output:
-```bash
-appstore_reviews.csv
-```
 
 ---
 
@@ -101,11 +90,6 @@ Combine review datasets from:
 - Standardize column names
 - Remove duplicate structures
 
-### Output:
-```bash
-merged_dataset.csv
-```
-
 ---
 
 # 4️⃣ Dataset Recovery
@@ -116,11 +100,6 @@ Recover incomplete or corrupted dataset rows before preprocessing.
 - Handle broken records
 - Recheck missing fields
 - Validate review entries
-
-### Output:
-```bash
-recovered_dataset.csv
-```
 
 ---
 
@@ -153,11 +132,6 @@ Clean noisy and irrelevant data.
 - Remove numbers
 - Remove special characters
 
-### Output:
-```bash
-cleaned_dataset.csv
-```
-
 ---
 
 # 7️⃣ Text Preprocessing
@@ -171,11 +145,6 @@ Prepare text data for NLP processing.
 - Stemming using Sastrawi
 - Normalization
 
-### Output:
-```bash
-preprocessed_dataset.csv
-```
-
 ---
 
 # 8️⃣ Removing Missing Values After Preprocessing
@@ -186,11 +155,6 @@ Remove empty rows generated after preprocessing.
 - Detect null values
 - Remove blank reviews
 - Validate dataset consistency
-
-### Output:
-```bash
-final_preprocessed_dataset.csv
-```
 
 ---
 
