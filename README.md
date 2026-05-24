@@ -2,7 +2,9 @@
 
 This repository contains the implementation of my undergraduate thesis project entitled:
 
-**"KOMPARASI ALGORITMA TOPIC MODELING DAN MACHINE LEARNING UNTUK KLASIFIKASI SENTIMEN BERBASIS ASPEK PADA ULASAN APLIKASI PLN MOBILE"**
+**"Komparasi Algoritma Topic Modeling dan Machine Learning untuk Klasifikasi Sentimen Berbasis Aspek pada Ulasan Aplikasi PLN Mobile"**
+
+**"Comparison of Topic Modeling and Machine Learning Algorithms for Aspect-Based Sentiment Classification in PLN Mobile Application Reviews"**
 
 The project aims to analyze user reviews from the PLN Mobile application by identifying discussed aspects and classifying sentiments into positive, neutral, or negative categories.
 
